@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="assets/icone.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cafeteria do Dev</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+        <div class="div-logo">
+          <a href="">
+            <img
+              src="assets/logo-cafe.png"
+              alt="logo-cafe"
+              class="div-logo-img"
+            />
+            Cafeteria do Dev
+          </a>
+        </div>
+        <div class="div-list">
+          <ul class="menu-list">
+            <li><a href="#" class="menu-link">Home</a></li>
+            <li><a href="#" class="menu-link">Serviços</a></li>
+            <li><a href="#" class="menu-link">Sobre</a></li>
+          </ul>
+          <button class="button-list">
+            Pedido
+            <img
+              src="assets/icone.png"
+              alt="icone-café-button"
+              class="img-button-links"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div
+        class="container-home"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
+        <div class="grid">
+          <div class="div-text-home">
+            <h1 class="h1-text-home">
+              Nós Servimos o <span class="span-h1-home">Café</span> mais rico da
+              cidade
+            </h1>
+            <div><button class="button-home">Café e código</button></div>
+          </div>
+          <div>
+            <img src="assets/primeira.png" alt="Imagem Café" class="img-home" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <section class="section-services">
+      <div class="container-services" data-aos="fade-up" data-aos-delay="100">
+        <h1 class="title-section-services">O café feito para voçe</h1>
+      </div>
+
+      <div class="div-card">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="350">
+          <div class="div-card-image">
+            <img
+              class="image-card"
+              src="assets/americano.png"
+              alt="café americano"
+            />
+          </div>
+
+          <div class="div-text-services-card">
+            <h1 class="h1-card-service">Americano</h1>
+            <p class="p-card-service">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="div-card-image">
+            <img
+              class="image-card"
+              src="assets/expresso.png"
+              alt="café Expresso"
+            />
+          </div>
+          <div class="div-text-services-card">
+            <h1 class="h1-card-service">Expresso</h1>
+            <p class="p-card-service">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="div-card-image">
+            <img
+              class="image-card"
+              src="assets/cappuccino.png"
+              alt="café Cappuccino"
+            />
+          </div>
+          <div class="div-text-services-card">
+            <h1 class="h1-card-service">Cappuccino</h1>
+            <p class="p-card-service">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="div-logo div-logo-footer">
+        <a href="#">
+          <img class="div-logo-img" src="assets/logo-cafe.png" alt="logo-afé" />
+          Cafeteria do Dev
+        </a>
+        <p class="p-footer">Desenvolvido por DevClub</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+      });
+    </script>
+  </body>
+</html>
